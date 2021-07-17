@@ -1,0 +1,24 @@
+country_decisions = {
+
+battle_decision = {
+        potential = {
+            ai = no
+	NOT = { has_country_modifier = dec_victory }
+    NOT = { has_country_modifier = close_victory }
+	NOT = { has_country_modifier = pyr_victory }
+	NOT = { has_country_modifier = val_defeat }
+	NOT = { has_country_modifier = close_defeat }
+	NOT = { has_country_modifier = dec_defeat }
+	}
+        allow = {
+            
+        }
+        effect = {
+            country_event  = { id = battle_event.1 }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+}

@@ -1,0 +1,50 @@
+dec_victory = {
+	discipline = 0.075
+	shock_damage_received = -0.2
+	fire_damage_received = -0.2
+	shock_damage = 0.1
+	fire_damage = 0.1
+}
+close_victory = {
+	discipline = 0.05
+	shock_damage_received = -0.1
+	fire_damage_received = -0.1
+	shock_damage = 0.05
+	fire_damage = 0.05
+}
+pyr_victory = {
+	discipline = 0.05
+	shock_damage_received = 0.05
+	fire_damage_received = 0.05
+	shock_damage = 0.1
+	fire_damage = 0.1
+}
+val_defeat = {
+	discipline = -0.025
+	shock_damage_received = 0.05
+	fire_damage_received = 0.05
+	shock_damage = -0.05
+	fire_damage = -0.05
+}
+close_defeat = {
+	discipline = -0.05
+	shock_damage_received = 0.1
+	fire_damage_received = 0.1
+	shock_damage = -0.05
+	fire_damage = -0.05
+}
+dec_defeat = {
+	discipline = -0.075
+	shock_damage_received = 0.2
+	fire_damage_received = 0.2
+	shock_damage = -0.1
+	fire_damage = -0.1
+}
+hopeful_troops = {
+	recover_army_morale_speed = 0.15
+	reinforce_speed = 0.33
+}
+app_troops = {
+	recover_army_morale_speed = -0.15
+	reinforce_speed = -0.33
+}
